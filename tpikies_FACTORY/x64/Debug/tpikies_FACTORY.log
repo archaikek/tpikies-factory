@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\tpikies_FACTORY\structs.h(8,16): warning C4091: 'typedef ': ignored on left of 'edge_t' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\tpikies_FACTORY\structs.h(13,16): warning C4091: 'typedef ': ignored on left of 'residual_graph_t' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+  tpikies_FACTORY.vcxproj -> C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\x64\Debug\tpikies_FACTORY.exe
