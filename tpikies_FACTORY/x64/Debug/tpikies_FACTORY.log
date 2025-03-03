@@ -1,8 +1,10 @@
-﻿  main.cpp
+﻿  input_helpers.cpp
 C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\tpikies_FACTORY\structs.h(8,16): warning C4091: 'typedef ': ignored on left of 'edge_t' when no variable is declared
-  (compiling source file 'main.cpp')
+  (compiling source file 'input_helpers.cpp')
   
-C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\tpikies_FACTORY\structs.h(13,16): warning C4091: 'typedef ': ignored on left of 'residual_graph_t' when no variable is declared
-  (compiling source file 'main.cpp')
+C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\tpikies_FACTORY\structs.h(15,16): warning C4091: 'typedef ': ignored on left of 'residual_graph_t' when no variable is declared
+  (compiling source file 'input_helpers.cpp')
   
+C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\tpikies_FACTORY\input_helpers.cpp(51,26): warning C4307: '-': signed integral constant overflow
+C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\tpikies_FACTORY\input_helpers.cpp(72,28): warning C4307: '-': signed integral constant overflow
   tpikies_FACTORY.vcxproj -> C:\Users\Filip\Documents\Klepanie\C++\tpikies_FACTORY\x64\Debug\tpikies_FACTORY.exe

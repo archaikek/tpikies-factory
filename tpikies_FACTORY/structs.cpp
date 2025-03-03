@@ -29,13 +29,13 @@ void delete_graph(residual_graph_t *graph)
 #ifdef DEBUG
 void print_edge(const edge_t edge)
 {
-	if (edge.capacity >= INF / 2) printf("%d (%d/INF)", edge.dest, edge.residue);
-	else printf("%d (%d/%d)", edge.dest, edge.residue, edge.capacity);
+	if (edge.capacity >= INF / 2) printf("%d (INF)", edge.dest);
+	else printf("%d (%d)", edge.dest, edge.capacity);
 }
 void print_edge_with_source(const edge_t edge, const int src)
 {
-	if (edge.capacity >= INF / 2) printf("[%d -> %d (%d/INF)]", src, edge.dest, edge.residue);
-	else printf("[%d -> %d (%d/%d)]", src, edge.dest, edge.residue, edge.capacity);
+	if (edge.capacity >= INF / 2) printf("[%d -> %d (INF)]", src, edge.dest);
+	else printf("[%d -> %d (%d)]", src, edge.dest, edge.capacity);
 }
 
 void print_graph(const residual_graph_t *graph)

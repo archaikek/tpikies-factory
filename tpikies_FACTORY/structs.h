@@ -8,7 +8,9 @@
 typedef struct edge_t
 {
 	int dest;
-	int capacity, residue;
+	int capacity;
+	int residue_index; // residual edge will be located at graph[graph[dest]][residue_index];
+	// residual edges will naturally connect to nodes with lower indices
 };
 typedef struct residual_graph_t
 {

@@ -11,6 +11,7 @@ int main()
 
 	print_graph(graph);
 
+
 	delete_graph(graph);
 	free(slots);
 	free(groups);
