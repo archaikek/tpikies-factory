@@ -3,7 +3,7 @@
 #include <vector>
 
 #define INF ((1<<31) - 1)
-#define DEBUG
+//#define DEBUG
 
 typedef struct edge_t
 {
